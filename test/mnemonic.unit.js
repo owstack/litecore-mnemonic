@@ -4,7 +4,7 @@ var chai = require('chai');
 var should = chai.should();
 
 var Mnemonic = require('..');
-var errors = require('bitcore-lib').errors;
+var errors = require('@owstack/ltc-lib').errors;
 var bip39_vectors = require('./data/fixtures.json');
 
 describe('Mnemonic', function() {
